@@ -1,0 +1,21 @@
+{
+  "name": "chat-room-websocket",
+  "version": "1.0.0",
+  "description": "backend for chatroom",
+  "main": "srver.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "author": "Lisa",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
